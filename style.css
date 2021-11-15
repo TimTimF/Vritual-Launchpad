@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
+}
+
+.wrapper {
+    background-image: url("images/launchpadbg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    height: 800px;
+    width: 1000px;
+    background-color: rgb(24, 23, 23);
+    border-radius: 90px;
+    box-shadow: -1px 1px 107px 8px rgba(0,0,0,1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerHeader {
+    height: 100px;
+    width: 90%;
+    background-color: rgb(15, 15, 15);
+    border-radius: 50px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 90px;
+    width: 90px;
+    background-image: url("images/headphones.png");
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.filler {
+    background: rgb(6,131,175);
+    background: linear-gradient(90deg, rgba(6,131,175,1) 21%, rgba(175,53,53,0.9248074229691877) 80%);
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: rgb(211, 211, 211);
+    box-shadow: 0px 0px 30px 1px rgba(197, 197, 197, 0.76);
+    text-shadow: 4px 3px 4px rgba(0,0,0,0.68);
+}
+.padContainer {
+    height: 600px;
+    width: 860px;
+    background-color: rgb(24, 23, 23);
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    align-items: center;
+    justify-content: center;
+}
+
+.pad {
+    height: 145px;
+    width: 195px;
+    border: 5px solid rgb(201, 199, 199);
+}
+
+.drums {
+    background-color: purple;
+}
+
+.snares {
+    background-color: rgb(0, 0, 190);
+}
+
+.melody {
+    background-color: rgb(185, 0, 0);
+}
+
+.FX {
+    background-color: rgb(10, 139, 49)
+}
+
+.center1 {
+    border-bottom-right-radius: 30px;
+}
+
+.center2 {
+    border-bottom-left-radius: 30px;
+}
+
+.center3 {
+    border-top-right-radius: 30px;
+}
+
+.center4 {
+    border-top-left-radius: 30px;
+}
+
+.highlight {
+    opacity: .8;
+}
